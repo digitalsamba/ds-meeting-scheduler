@@ -1,0 +1,41 @@
+<?php
+
+return [
+
+    'app_name' => env('APP_NAME', 'Meeting Scheduling App'),
+
+    'app_env' => env('APP_ENV', 'production'),
+
+    'app_debug' => env('APP_DEBUG', false),
+
+    'app_url' => env('APP_URL', 'http://localhost'),
+
+    'timezone' => env('APP_TIMEZONE', 'UTC'),
+
+    'locale' => env('APP_LOCALE', 'en'),
+
+    'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
+
+    'key' => env('APP_KEY'),
+
+    'cipher' => 'AES-256-CBC',
+
+    'log' => env('APP_LOG', 'stack'),
+
+    'log_level' => env('APP_LOG_LEVEL', 'debug'),
+
+    'providers' => [
+
+        // Laravel Framework Service Providers...
+
+        // Other Service Providers...
+
+    ],
+
+    'aliases' => [
+
+        // Class aliases...
+
+    ],
+
+];
